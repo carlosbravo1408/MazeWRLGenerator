@@ -1,0 +1,668 @@
+#VRML V2.0 utf8
+#Creado por mi :v
+#puto el que lo lea :V
+#
+DirectionalLight {
+   color	1 1 1
+   direction	-0.57735 -0.57735 -0.57735
+   intensity	1
+}
+DirectionalLight {
+	direction	0 0 1
+}
+DirectionalLight {
+	direction	0.57735 0.57735 -0.57735
+}
+WorldInfo {
+    info    "By MazeGenerator v:"
+    title   "MazeTest"
+}
+DEF Env Transform {
+    translation 0.18 0.18 0.38
+	rotation	1 0 0  1.5708
+    scale   1 1 1
+    children [
+        Shape {
+            appearance  Appearance {
+                material    Material {
+                    ambientIntensity    0.1
+                    diffuseColor    0.8 0.8 0.8
+                   emissiveColor   0 0 0
+                    shininess   0.2
+                    specularColor   1 1 1
+                   transparency    0
+                }
+                texture NULL
+            }
+            geometry    Box {
+                size    0.576 0.012 0.576
+		    }
+	    }
+	    DEF col00 Transform {
+		    translation	-0.27 0.056 -0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col01 Transform {
+		    translation	-0.09 0.056 -0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col02 Transform {
+		    translation	0.09 0.056 -0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col03 Transform {
+		    translation	0.27 0.056 -0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col10 Transform {
+		    translation	-0.27 0.056 -0.09
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col11 Transform {
+		    translation	-0.09 0.056 -0.09
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col12 Transform {
+		    translation	0.09 0.056 -0.09
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col13 Transform {
+		    translation	0.27 0.056 -0.09
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col20 Transform {
+		    translation	-0.27 0.056 0.09
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col21 Transform {
+		    translation	-0.09 0.056 0.09
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col22 Transform {
+		    translation	0.09 0.056 0.09
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col23 Transform {
+		    translation	0.27 0.056 0.09
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col30 Transform {
+		    translation	-0.27 0.056 0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col31 Transform {
+		    translation	-0.09 0.056 0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col32 Transform {
+		    translation	0.09 0.056 0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF col33 Transform {
+		    translation	0.27 0.056 0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0 0
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	1 1 1
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF hwall00 Transform {
+		    translation	-0.18 0.056 -0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.168 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF hwall01 Transform {
+		    translation	5.55111512312578E-17 0.056 -0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.168 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF hwall02 Transform {
+		    translation	0.18 0.056 -0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.168 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF hwall11 Transform {
+		    translation	5.55111512312578E-17 0.056 -0.09
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.168 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF hwall22 Transform {
+		    translation	0.18 0.056 0.09
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.168 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF hwall30 Transform {
+		    translation	-0.18 0.056 0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.168 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF hwall31 Transform {
+		    translation	5.55111512312578E-17 0.056 0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.168 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF hwall32 Transform {
+		    translation	0.18 0.056 0.27
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.168 0.1 0.012
+			    }
+		    }
+	    }
+	    DEF vwall00 Transform {
+		    translation	-0.27 0.056 -0.18
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.168
+			    }
+		    }
+	    }
+	    DEF vwall03 Transform {
+		    translation	0.27 0.056 -0.18
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.168
+			    }
+		    }
+	    }
+	    DEF vwall10 Transform {
+		    translation	-0.27 0.056 5.55111512312578E-17
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.168
+			    }
+		    }
+	    }
+	    DEF vwall11 Transform {
+		    translation	-0.09 0.056 5.55111512312578E-17
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.168
+			    }
+		    }
+	    }
+	    DEF vwall13 Transform {
+		    translation	0.27 0.056 5.55111512312578E-17
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.168
+			    }
+		    }
+	    }
+	    DEF vwall20 Transform {
+		    translation	-0.27 0.056 0.18
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.168
+			    }
+		    }
+	    }
+	    DEF vwall21 Transform {
+		    translation	-0.09 0.056 0.18
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.168
+			    }
+		    }
+	    }
+	    DEF vwall23 Transform {
+		    translation	0.27 0.056 0.18
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.9 0.767329 0.619635
+					    emissiveColor	0 0 0
+					    shininess	0.2
+					    specularColor	0 0 0
+					    transparency	0
+				    }
+			    }
+			    geometry	Box {
+				    size	0.012 0.1 0.168
+			    }
+		    }
+	    }
+	]
+}
+DEF SuperiorEntorno Viewpoint {
+	fieldOfView	1
+	jump	TRUE
+	position 0.18 0.18 0.695293505963451
+	description	"Vista Superior Laberinto"
+}
+                         DEF Body Transform {
+	                        translation	0 0 0
+	                        children Transform {
+		                        translation	0 0 0.40985
+		                        children [ 
+		                            DEF Base Inline {
+			                            url	"Cuerpo.wrl"
+		                            }
+		                            DEF RuedaIzquierda Transform {
+			                            translation	-0.04875 0 -0.0065
+			                            children Inline {
+				                            url	"RuedaIzquierda.wrl"
+			                            }
+		                            }
+		                            DEF RuedaDerecha Transform {
+			                            translation	0.04275 0 -0.0065
+			                            children Inline {
+				                            url	"RuedaDerecha.wrl"
+			                            }
+		                            }
+		                            DEF VistaFrontal Transform {
+			                            rotation	1 0 0  1.5708
+			                            children DEF FPView1 Viewpoint {
+				                            position	0 0.07 0.1
+				                            description	"Vista Frontal"
+			                            }
+		                            }
+		                            DEF VistaTrasera Transform {
+			                            rotation	1 0 0  1.5708
+			                            children DEF Rot Transform {
+				                            rotation	0 1 0  3.14116
+				                            children DEF FPView2 Viewpoint {
+					                            position	0 0.07 0.1
+					                            description	"Vista Trasera"
+				                            }
+			                            }
+		                            }
+		                            DEF VistaAlzado Viewpoint {
+			                            position	0 0 0.5
+			                            description	"Vista Superior"
+		                            }
+		                        ]
+	                        }
+                       }

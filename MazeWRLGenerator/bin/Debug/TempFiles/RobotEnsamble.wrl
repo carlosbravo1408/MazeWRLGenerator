@@ -1,0 +1,28 @@
+#VRML V2.0 utf8
+
+DEF Cuerpo-1 Transform {
+  children DEF Cuerpo-1_Offset Transform {
+    rotation 0 1 0 0
+    children DEF Cuerpo-1_Inline Inline {
+      url "Cuerpo.wrl" 
+    }
+  }
+}
+DEF RuedaIzquierda-1 Transform {
+  children DEF RuedaIzquierda-1_Offset Transform {
+    translation -0.04875 0 -0.0065
+    rotation 0 1 0 0
+    children DEF RuedaIzquierda-1_Inline Inline {
+      url "RuedaIzquierda.wrl" 
+    }
+  }
+}
+DEF RuedaDerecha-1 Transform {
+  children DEF RuedaDerecha-1_Offset Transform {
+    translation 0.04275 0 -0.0065
+    rotation 0 1 0 0
+    children DEF RuedaDerecha-1_Inline Inline {
+      url "RuedaDerecha.wrl" 
+    }
+  }
+}
